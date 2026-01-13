@@ -1,4 +1,4 @@
-# 📊 Favorita Grocery Sales Forecasting  
+#  Favorita Grocery Sales Forecasting  
 ### Projet Projet de Machine Learning de prévision des ventes – REG09
 
 ## 📝 Description
