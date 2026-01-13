@@ -2,11 +2,11 @@
 ### Projet Projet de Machine Learning de prévision des ventes – REG09
 
 ## 📝 Description
-Ce projet vise à développer un modèle de **prévision des ventes quotidiennes**
-pour la chaîne de supermarchés équatorienne **Favorita**, à partir de données
+Ce projet vise à développer un modèle de prévision des ventes quotidiennes
+pour la chaîne de supermarchés équatorienne Favorita, à partir de données
 historiques multi-sources.
 
-Le projet a été réalisé dans le cadre du module **Machine Learning (REG09)**,
+Le projet a été réalisé dans le cadre du module Machine Learning,
 avec une approche complète allant de l’exploration des données jusqu’à la
 visualisation des résultats via un dashboard.
 
@@ -52,10 +52,9 @@ Le projet est structuré autour d’un pipeline Machine Learning clair et
 reproductible :
 
 1. Exploration des données (EDA)
-2. Prétraitement des données
-3. Feature engineering
+2. Prétraitement des données et Feature engineering
 4. Modélisation et sélection du meilleur modèle
-5. Visualisation et dashboard
+5. Dashboard
 
 ---
 
@@ -139,11 +138,11 @@ l’interprétation et la prise de décision.
 ## 👥 Équipe
 
 Projet réalisé par :
-- Dior  
-- Jacques  
-- Aissatou  
-- Khadija  
-- Francis  
+- Khadidiatou DIAKHATE
+- Aissatou Sega DIALLO  
+- Haba Fromo Francis
+- Jacques ILLY
+- Dior MBENGUE
 
 ---
 
