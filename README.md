@@ -93,14 +93,49 @@ Veuillez trouver le lien vers le githup du Dashboard [ici](https://github.com/Kh
 ## 🤖 Modèles et métriques
 
 ### Modèles testés
-- Modèles de référence (baseline)
-- Modèles de régression
-- Modèles basés sur les arbres (Random Forest, Gradient Boosting)
+Modèles évalués
 
+Plusieurs modèles ont été testés afin de comparer leurs performances et d’identifier la meilleure approche pour la prévision des ventes :
+
+🔹 Modèles linéaires régularisés
+
+Ridge Regression (α = 1.0)
+
+Lasso Regression (α = 0.01)
+
+ElasticNet (α = 0.01, l1_ratio = 0.5)
+
+Ces modèles servent de références interprétables, permettant d’évaluer la capacité des relations linéaires à expliquer les ventes.
+
+🔹 Modèles avancés basés sur les arbres
+
+LightGBM
+
+CatBoost
+
+Ces modèles sont capables de capturer des relations non linéaires complexes, des interactions entre variables ainsi que des effets saisonniers.
+
+🔹 Modèles de référence (baselines)
+
+Naive model
+
+Seasonal Naive model
+
+Ces modèles simples servent de points de comparaison, afin de vérifier que les modèles avancés apportent un réel gain de performance.
 ### Métriques d’évaluation
-- MAE (Mean Absolute Error)
-- RMSE (Root Mean Squared Error)
+Les performances ont été évaluées à l’aide des métriques suivantes, calculées sur les ensembles d’entraînement et de test :
 
+MSE (Mean Squared Error)
+
+RMSE (Root Mean Squared Error)
+
+MAE (Mean Absolute Error)
+
+MAPE (Mean Absolute Percentage Error)
+
+R² (coefficient de détermination)
+
+Une séparation temporelle a été utilisée afin de respecter la nature chronologique des données.
 ---
 
 ## 📈 Résultats
