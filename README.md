@@ -56,6 +56,7 @@ reproductible :
 2. Prétraitement des données et Feature engineering
 4. Modélisation et sélection du meilleur modèle
 5. Dashboard
+6.  Lien de la présentation
 
 ---
 
@@ -68,7 +69,7 @@ reproductible :
 - Identification des valeurs manquantes et des valeurs extrêmes
 
 Veuillez trouver le lien [ici](https://www.kaggle.com/code/jacquesilly/eda-pr-vision-des-ventes)
-### 📙 Notebook 02 – Prétraitement & Feature Engineering (Pipeline)
+### 📙 Notebook 02 – Prétraitement & Feature Engineering & Modélisation (Pipeline)
 - Traitement des valeurs manquantes
 - Correction des valeurs négatives
 - Harmonisation des formats et types
@@ -77,21 +78,17 @@ Veuillez trouver le lien [ici](https://www.kaggle.com/code/jacquesilly/eda-pr-vi
 - Encodage des variables catégorielles
 - Fusion des sources de données
 - Construction du DataFrame final
-
-### 📙 Notebook 03 – Modélisation
 - Découpage temporel train / validation
 - Implémentation de modèles de base (baseline)
 - Entraînement de plusieurs modèles ML
 - Évaluation à l’aide de MAE et RMSE
 - Sélection du modèle final
 
-### 📙 Notebook 04 – Dashboard
-- Visualisation des ventes réelles vs prédites
-- Analyse des erreurs de prédiction
-- Importance des variables
-- Interprétation métier des résultats
-
+### 📙 Dashboard
+Veuillez trouver le lien vers le githup du Dashboard [ici](https://github.com/Khadijah19/Pr-vision-des-ventes)
 ---
+
+## 📘 Lien vers la présentation [ici](https://www.canva.com/design/DAG-KZn1N-8/a8oNo0hmCXUdjgNboP18Ww/edit?utm_content=DAG-KZn1N-8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## 🤖 Modèles et métriques
 
